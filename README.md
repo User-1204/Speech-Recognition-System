@@ -13,12 +13,12 @@
 *MENTOR*: NEELA SANTHOSH
 
 
-## 📌 Introduction
+## Introduction
 Speech recognition enables computers to convert spoken language into text, facilitating applications such as **virtual assistants, automated transcription, accessibility tools, and hands-free control systems**.  
 
 This project leverages Python’s `speech_recognition` library to process audio input and transcribe speech efficiently. It supports both **live microphone input** and **pre-recorded audio files**, making it a versatile tool for various real-world applications.
 
-## 🔧 System Overview  
+## System Overview  
 
 ### **Workflow:**  
 1. **Audio Input** – Accepts either real-time microphone input or a `.wav` file.  
@@ -48,14 +48,14 @@ with sr.AudioFile("your_audio_file.wav") as source:
         print("Error requesting results from Google API.")  
 ```  
 
-## 🚀 Key Features:  
+## Key Features:  
 - **Accurate Speech-to-Text Conversion** – Processes spoken language efficiently.  
 - **Multi-Input Support** – Works with live speech and pre-recorded audio files.  
 - **Automatic Noise Reduction** – Improves transcription accuracy in varied environments.  
 - **Robust Error Handling** – Provides detailed messages for debugging and troubleshooting.  
 - **Lightweight & Efficient** – Optimized for performance with minimal dependencies.  
 
-## 🛠️ Installation & Setup: 
+## Installation & Setup: 
 
 ### **Prerequisites:**  
 Ensure the following are installed:  
@@ -73,7 +73,7 @@ pip install SpeechRecognition pyaudio
 pip install path-to-downloaded-file.whl
 ```
 
-## 📚 Troubleshooting & Common Issues: 
+## Troubleshooting & Common Issues: 
 
 ### **Issue:** Speech is not recognized or produces incorrect results  
 -Ensure a **clear audio input**, as excessive background noise can impact accuracy.  
@@ -90,9 +90,9 @@ recognizer.adjust_for_ambient_noise(source)
 -Try using administrator privileges (`pip install pyaudio --user`).  
 -Manually install precompiled `.whl` files if needed.  
 
-## 📜 License:  
+## License:  
 This project is available under the **MIT License**, granting permission for free use, modification, and distribution.  
 
 
-## 📤 Output:
+## Output:
 ![Image](https://github.com/user-attachments/assets/50db4714-dcb1-4170-ae29-0bf8385184df)
